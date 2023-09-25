@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <title>View Posts</title>
+    <body>
+        <ul>
+            {% for post in posts %}
+            <li>
+                {{post.content}}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
