@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
-import requests 
+# import requests  # type: ignore
+import requests
 
 # create the app instance 
 app = Flask(__name__)
